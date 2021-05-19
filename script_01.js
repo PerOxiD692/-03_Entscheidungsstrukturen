@@ -30,3 +30,16 @@ console.log("John hat das gleiche Alter wie Mark: " + isJohnEqual);
 }
 */
 
+// ***** IF - ELSE *****
+// mit Alternative (entweder Ja oder Nein)
+
+if (isJohnOlder)
+{
+    // Ja-Zweig / true
+    console.log("John ist älter");
+}
+else
+{
+    // Nein-Zweig / false
+    console.log("John ist jünger");
+}
