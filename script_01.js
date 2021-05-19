@@ -5,7 +5,7 @@ let ageJohn, ageMark;
 let isJohnOlder, isJohnEqual;
 
 // Wertzuweisung
-ageJohn = 35;
+ageJohn = 25;
 ageMark = 30;
 
 // Logische Aussagen / Tests
@@ -13,8 +13,8 @@ isJohnOlder = (ageJohn > ageMark);
 isJohnEqual = (ageJohn == ageMark);
 
 // Ausgabe
-console.log("John ist älter als Mark: " + isJohnOlder);
-console.log("John hat das gleiche Alter wie Mark: " + isJohnEqual);
+//console.log("John ist älter als Mark: " + isJohnOlder);
+//console.log("John hat das gleiche Alter wie Mark: " + isJohnEqual);
 
 // ***** IF *****
 // alternativlos (TINA - There is no alternative)
@@ -30,9 +30,10 @@ console.log("John hat das gleiche Alter wie Mark: " + isJohnEqual);
 }
 */
 
+
 // ***** IF - ELSE *****
 // mit Alternative (entweder Ja oder Nein)
-
+/*
 if (isJohnOlder)
 {
     // Ja-Zweig / true
@@ -41,5 +42,26 @@ if (isJohnOlder)
 else
 {
     // Nein-Zweig / false
+    console.log("John ist jünger");
+}
+*/
+
+
+// ***** IF - ELSE IF *****
+// mit Alternativen Fällen
+
+if (isJohnOlder)
+{
+    // Ja-Zweig
+    console.log("John ist älter");
+}
+else if(isJohnEqual)
+{
+    // 1. Alternative
+    console.log("John ist gleich alt");
+}
+else
+{
+    // lezte Alternative
     console.log("John ist jünger");
 }
