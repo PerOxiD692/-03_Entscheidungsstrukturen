@@ -49,7 +49,7 @@ else
 
 // ***** IF - ELSE IF *****
 // mit Alternativen Fällen
-
+/*
 if (isJohnOlder)
 {
     // Ja-Zweig
@@ -65,3 +65,8 @@ else
     // lezte Alternative
     console.log("John ist jünger");
 }
+*/
+
+
+// ***** Ternäre Schreibweise (Nur IF - ELSE) *****
+console.log( (isJohnOlder) ? "John is  older" : "Mark is older");
